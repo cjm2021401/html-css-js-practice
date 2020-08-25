@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta name="keywords" content="DANCE, CULTURE, STREET ">
+    <meta name="description" content="about Yeni-cho ">
+    <title>PROTOTYPE</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/modal-video.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+<style>
+    .dropdown-menu{
+        background-color: #8b8687 !important;
+
+    }
+    .dropdown-item{
+        color: white!important;
+    }
+    .navbar{
+         background-color: #1d2124 !important;
+     }
+
+    p{font-family: 'Noto Sans KR', sans-serif;}
+    h1{font-family: 'Noto Sans KR', sans-serif;}
+    h4{font-family: 'Noto Sans KR', sans-serif;}
+    h2{font-family: 'Noto Sans KR', sans-serif;}
+    h3{font-family: 'Noto Sans KR', sans-serif;}
+    h5{font-family: 'Noto Sans KR', sans-serif;}
+    .column#caption {
+        position: relative;
+    }
+    .column#caption .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        opacity: 0;
+        transition: all 0.8s ease;
+    }
+    .column#caption .text h1 {
+        margin: 0;
+        color: white;
+    }
+    .column#caption:hover .text {
+        opacity: 1;
+
+    }
+    .column#caption:hover img {
+        -webkit-filter: sepia(90%);
+    }
+    .column#caption {
+        position: relative;
+    }
+    .column#caption .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        opacity: 0;
+        transition: all 0.8s ease;
+    }
+    .column#caption .text h1 {
+        margin: 0;
+        color: white;
+    }
+    .column#caption:hover .text {
+        opacity: 1;
+
+    }
+    .column#caption:hover img {
+        -webkit-filter: opacity(50%);
+    }
+</style>
+</head>
+<body>
+<style type="text/css">
+    img{
+        max-width: 100%;
+        height: auto !important;
+    }
+    footer { padding: 50px 0; text-align: center; background-color: #383a3f; color:white;
+    }
+
+    footerul li { display: inline; }
+    footerul a { font-size: 18px; margin: 0 15px; }
+    a:link { color: #513926; }
+    a:visited { color: #513926; }
+    a:hover { color: #7F593C; }
+</style>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="main.html"><img src="image/home.png" width="40" height="40" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="index.html"><strong>Home</strong></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="profile.html">Profile<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="artist.html">Artist<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        News
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="event.html">Event</a>
+                        <a class="dropdown-item" href="goods.html">Goods</a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+<main class="container my-1 " >
+    <hr class="my-1" style="background-color: white">
+    <div class="pricing-header px-3 py-1 pt-md-3 pb-md-1 mx-auto text-center">
+        <h3 class="display-6 font-weight-bold" >HOME</h3>
+
+    </div>
+    <hr class="my-2" >
+    <section id="carousel-3" class="text-center">
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade " data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="view">
+                    <a href="artist.html">
+                    <img class="d-block w-100" src="image/aml.jpg"
+                         alt="First slide"></a>
+                    <div class="mask rgba-black-light"></div>
+
+                </div>
+                <a href="artist.html">
+                <div class="carousel-caption">
+
+                    <h4 class="h3-responsive font-weight-bold">ARTIST</h4>
+
+                </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <a href="event.html">
+                    <img class="d-block w-100" src="image/6ixsens.jpg"
+                         alt="Second slide"></a>
+                    <div class="mask rgba-black-strong"></div>
+
+                </div>
+                <div class="carousel-caption">
+                    <h4 class="h3-responsive font-weight-bold">EVENT</h4>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <a href="goods.html">
+                    <img class="d-block w-100" src="image/YENICHO3.JPG"
+                         alt="Third slide"></a>
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <a href="goods.html">
+                <div class="carousel-caption">
+                    <h4 class="h3-responsive font-weight-bold">GOODS</h4>
+
+                </div>
+                </a>
+            </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    </section>
+
+    <hr class="my-3" >
+    <section id="examples" class="text-center">
+
+        <!-- Heading -->
+        <h5 class="mb-4 font-weight-bold" >VIDEO</h5>
+
+        <!--Grid row-->
+        <div class="row bg-light">
+
+            <!--Grid column-->
+            <div class="col-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <a href = "#" class = "video-play column col-xs-6"  data-video-id="gSrn-vNajXc" id = "caption"><span class = "text"><h1 class = "column col-xs-6" id = "caption">CLICK THIS</h1></span>
+                        <img src="image/dagarage.jpg" class="img-fluid" alt="">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+
+                </div>
+
+
+
+
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <a href = "#" class = "video-play column col-xs-6"  data-video-id="gSrn-vNajXc" id = "caption"><span class = "text"><h1 class = "column col-xs-6" id = "caption">CLICK THIS</h1></span>
+                    <img src="image/dagarage.jpg" class="img-fluid" alt="">
+                    <div class="mask rgba-white-slight"></div>
+                    </a>
+
+                </div>
+
+
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+
+            <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+
+            <!--Grid column-->
+
+
+        <!--Grid row-->
+
+    </section>
+
+    <hr class="my-4" style="background-color: white">
+</main>
+
+<footer class="mastfoot mt-auto " id="foot">
+
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-modal-video.min.js"></script>
+<script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+<script>
+    $(".video-play").modalVideo();
+
+</script>
+</body>
+</html>

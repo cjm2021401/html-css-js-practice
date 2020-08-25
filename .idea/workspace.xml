@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcc0ee17-849e-4585-801f-bc57829e3cb3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eMyhHpslzKGRbczFM5gw1uJr2o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcc0ee17-849e-4585-801f-bc57829e3cb3" name="Default Changelist" comment="" />
+      <created>1594145873942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594145873942</updated>
+      <workItem from="1594145879088" duration="8370000" />
+      <workItem from="1594292718928" duration="10925000" />
+      <workItem from="1594391563651" duration="19306000" />
+      <workItem from="1594455326028" duration="4495000" />
+      <workItem from="1594492201913" duration="604000" />
+      <workItem from="1594567088860" duration="13901000" />
+      <workItem from="1594674223955" duration="4083000" />
+      <workItem from="1594793209648" duration="3373000" />
+      <workItem from="1594909472353" duration="1417000" />
+      <workItem from="1594959321260" duration="1491000" />
+      <workItem from="1595037447668" duration="174000" />
+      <workItem from="1597671085198" duration="26489000" />
+      <workItem from="1598308748669" duration="1206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1391" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594676970583">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1391" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1594676970583" />
+    <state x="616" y="156" width="1162" height="811" key="dock-window-1" timestamp="1594959387393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1657" y="190" width="1162" height="811" maximized="true" key="dock-window-1/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1594795062004" />
+    <state x="616" y="156" width="1162" height="811" key="dock-window-1/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1594959387393" />
+    <state x="0" y="0" width="1531" height="811" key="dock-window-2" timestamp="1594407843165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1531" height="811" key="dock-window-2/0.0.1920.1040/-1920.0.1536.824@-1920.0.1536.824" timestamp="1594407843165" />
+  </component>
+</project>
