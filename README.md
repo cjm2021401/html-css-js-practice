@@ -6,7 +6,7 @@ HTML-CSS-JS practice
 HTML, CSS, JS를 바탕으 BOOTSTRAP을 활용하여 만든 간단한 정적 웹페이지로   
 DOCKERFILE을 작성하여 nginx이미지 위에서 돌아가도록 설정하였다.
 
-### 2. 설
+### 2. 설정
 #### docker 사용법
 <br/>
 Dockerfile이 있는 위치로 이동 (혹은 경로를 복사)
